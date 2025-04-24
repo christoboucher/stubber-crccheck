@@ -5,9 +5,9 @@ services:
     image: crccheck/hello-world
     ports:
       - "8010:8000"
-    configs:
-      - source: crccheck_v1
-        target: /www/index.html
+    # configs:
+    #   - source: crccheck_v1
+    #     target: /www/index.html
     # volumes:
     #   - /mnt/dockervol1/customer_webchats:/www
     networks:

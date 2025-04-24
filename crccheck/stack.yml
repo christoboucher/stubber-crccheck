@@ -4,7 +4,7 @@ services:
   customer-webchat:
     image: crccheck/hello-world
     ports:
-      - "8888:8000"
+      - "8009:8000"
     # volumes:
     #   - /mnt/dockervol1/customer_webchats:/www
     networks:
